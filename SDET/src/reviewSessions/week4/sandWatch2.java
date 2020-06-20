@@ -17,15 +17,17 @@ public class sandWatch2 {
 			} 
 			
 			for(int k=0; k<i; k++) {
-				//if(i==n) {
-				//break;
-				//System.out.print(" ");
-				//}
-				System.out.print(" ");
+				if(i!=n) {
+					 System.out.print(" ");
+				}
 			}
 		}
 		
 		for(int l=n-1; l>=1; l--) {
+			
+			for(int k=1; k<l; k++) {
+				System.out.print(" ");
+			}
 			
 			for(int j=l; j<=n; j++) {
 				
@@ -35,11 +37,9 @@ public class sandWatch2 {
 			} if(l<=n) {
 				System.out.println(" ");
 				} 
-			
-			for(int k=2; k<l; k++) {
-				System.out.print(" ");
 			}
-		}
+		
+		}	
+		
 	}
 	
-}
