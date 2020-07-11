@@ -23,5 +23,4 @@ public class Question_4 {
 		
 		System.out.println("Female percantage is " + percantageOfFemale + " percantage of the male is " + (100-percantageOfFemale));
 	}
-
 }
