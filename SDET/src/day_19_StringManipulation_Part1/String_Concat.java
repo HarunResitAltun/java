@@ -1,4 +1,4 @@
-package day_19_String_Part1;
+package day_19_StringManipulation_Part1;
 
 public class String_Concat {
 

@@ -1,4 +1,4 @@
-package day_20_String_Class_Count_Part2;
+package day_20_StringManipulation_Part2;
 
 public class String_Replace2 {
 
