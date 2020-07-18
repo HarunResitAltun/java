@@ -8,6 +8,8 @@ public class TwoD_Array {
 		
 		String[][] list = new String[4][3];
 		
+		String[][] list2 = {{"Potatoes","Carrots","Onions"},{"Apples","Kiwis","Onions"},{"Milk","Egg","Cheese"},{"Bread","Bogel","Muffin"}};
+		
 		//row1
 		list[0][0]="Potatoes";
 		list[0][1]="Carrots";
