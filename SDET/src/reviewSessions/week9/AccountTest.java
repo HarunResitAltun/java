@@ -29,10 +29,20 @@ public class AccountTest {
 		System.out.println("=====================");
 		
 		List<Account> list = new ArrayList<>();
+		
+		//I want to create a list
+		//what kind of objects u want this list to hold it? -> object belongs to Account class
+		
+		list.add(new Account());
 		list.add(new Account());
 		list.add(new Account());
 		
-
+		Account a1 = new Account();
+		list.add(a1);
+		
+		list.get(0).setData(1, 3);
+		list.get(1).setData(20, 30);
+		list.get(2).setData(9, 32);
+		
 	}
-
 }
