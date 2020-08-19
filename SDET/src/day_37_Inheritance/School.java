@@ -1,4 +1,4 @@
-package day_37;
+package day_37_Inheritance;
 
 public class School {
 
